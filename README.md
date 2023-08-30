@@ -56,8 +56,11 @@ It used to have an iCalendar export, RSS export, Atom export.
 
 Such exports are useful if one wants to follow certain meetup in their own calendar software, or if one wants to read the event feed by a program and automatically link to upcoming events from a website – effectively sending more people to the events and more potential users to Meetup.
 
-In March 2023 they've put these exports behind login.
+In March 2023 they've put these exports behind login, basically rendering them useless.
+You can download the files manually, but automatic fetching for future events is impossible.
+
 After a long conversation with their support (June 2023), they confirmed it's intentional, but they couldn't explain why they did such product decision and how it benefits their users.
+They do have an API, with horrendous auth flow, but that API is reserved to paying users only.
 From that point on, I consider Meetup to be a hostile walled garden, which contributes to harming the free and open internet.
 
 All my integrations broke down, and [not only mine](https://wordpress.org/support/topic/trouble-with-meetup-calendars-please-read/).

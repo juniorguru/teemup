@@ -39,6 +39,7 @@ Then cut a new release:
 -   Make sure the tests really pass: `poetry run pytest`
 -   Format the code: `poetry run black .`
 -   Raise the version number in `pyproject.toml`
+-   Commit the changes: `git commit -am "release vX.Y.Z"`
 -   Create a version tag: `git tag vX.Y.Z`
 -   Push the tag: `git push --tags`
 -   Publish to PyPI: `poetry publish`

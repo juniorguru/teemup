@@ -22,10 +22,7 @@ def parse(content: str) -> list[dict[str, Any]]:
             url=event["eventUrl"],
         )
         for key, event in apollo_state.items()
-        if (
-            key.startswith("Event:")
-            and event["status"] == "ACTIVE"
-        )
+        if (key.startswith("Event:") and event["status"] == "ACTIVE")
     ]
 
 

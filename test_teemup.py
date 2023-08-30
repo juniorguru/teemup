@@ -23,13 +23,26 @@ def test_parse_produces_timezone_aware_ends_at(content: str):
 def test_parse_produces_expected_keys(content: str):
     events = parse(content)
 
-    assert sorted(events[0].keys()) == ['description', 'ends_at', 'starts_at', 'title', 'url', 'venue']
+    assert sorted(events[0].keys()) == [
+        "description",
+        "ends_at",
+        "starts_at",
+        "title",
+        "url",
+        "venue",
+    ]
 
 
 def test_parse_produces_expected_venue_keys(content: str):
     events = parse(content)
 
-    assert sorted(events[0]['venue'].keys()) == ['address', 'city', 'country', 'name', 'state']
+    assert sorted(events[0]["venue"].keys()) == [
+        "address",
+        "city",
+        "country",
+        "name",
+        "state",
+    ]
 
 
 def test_parse_venue():
@@ -43,13 +56,10 @@ def test_parse_venue():
         "country": "cz",
     }
 
-    assert (
-        parse_venue(venue)
-        == {
-            "name": "Pipedrive",
-            "address": "Pernerova 697/35, Karlín",
-            "city": "Praha-Praha 8",
-            "state": None,
-            "country": "cz",
-        }
-    )
+    assert parse_venue(venue) == {
+        "name": "Pipedrive",
+        "address": "Pernerova 697/35, Karlín",
+        "city": "Praha-Praha 8",
+        "state": None,
+        "country": "cz",
+    }

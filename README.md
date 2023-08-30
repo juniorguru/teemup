@@ -43,7 +43,7 @@ Then cut a new release:
 -   Push the tag: `git push --tags`
 -   Publish to PyPI: `poetry publish`
 
-**Note:** If there are no upcoming events, choose a different Meetup page for testing.
+**Note:** If there are no upcoming events, choose a different group page for testing.
 Do not remove live testing from the repository!
 The whole purpose of the library is to be up-to-date with the current website.
 It must be monitored every day and fixed as soon as it breaks.

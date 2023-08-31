@@ -46,12 +46,13 @@ def test_parse_produces_expected_venue_keys(response_content: str):
     ]
 
 
-def test_parse_next_state_missing_venue():
+def test_parse_next_state_can_deal_with_missing_venue():
     with open("test_fixtures/next_state_missing_venue.json") as f:
         next_state = json.load(f)
     events = parse_next_state(next_state)
+    event_with_missing_venue = [event for event in events if event["venue"] is None][0]
 
-    assert sorted(events[0].keys()) == [
+    assert sorted(event_with_missing_venue.keys()) == [
         "description",
         "ends_at",
         "starts_at",

@@ -22,7 +22,7 @@ def parse_next_state(next_state: dict) -> list[dict[str, Any]]:
             description=event["description"],
             starts_at=datetime.fromisoformat(event["dateTime"]),
             ends_at=datetime.fromisoformat(event["endTime"]),
-            venue=parse_venue(venues[event["venue"]["__ref"]]),
+            venue=parse_venue(venues[event["venue"]["__ref"]]) if event["venue"] else None,
             url=event["eventUrl"],
         )
         for key, event in apollo_state.items()

@@ -1,0 +1,35 @@
+name: release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/teemup
+    permissions:
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: "poetry"
+
+      - if: startsWith(github.ref, 'refs/tags')
+        name: Build package
+        run: poetry build
+
+      - if: startsWith(github.ref, 'refs/tags')
+        name: Publish to PyPI
+        run: pypa/gh-action-pypi-publish@release/v1

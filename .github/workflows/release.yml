@@ -26,10 +26,10 @@ jobs:
           python-version: "3.11"
           cache: "poetry"
 
-      - if: startsWith(github.ref, 'refs/tags')
-        name: Build package
+      - name: Build package
         run: poetry build
 
-      - if: startsWith(github.ref, 'refs/tags')
-        name: Publish to PyPI
-        run: pypa/gh-action-pypi-publish@release/v1
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          skip-existing: true

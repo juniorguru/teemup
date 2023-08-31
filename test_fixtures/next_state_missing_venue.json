@@ -1,0 +1,890 @@
+{
+  "props": {
+    "pageProps": {
+      "isMobile": false,
+      "showMobileBanner": true,
+      "memberLocale": "en-US",
+      "localeMessages": {
+        "a11y.skipToContent": "Skip to content",
+        "groupEvents.title": "{GROUP} Events",
+        "desktopHeader.meetupLogo": "Meetup logo",
+        "seoHeader.defaultDescription2": "Find Meetup events so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+        "groupHomeHeader.coverPhotoAltText": "{NAME} cover photo",
+        "groupHomeHeader.privacyPublicHelp": "This group’s content, including its members and event details, are visible to the public. {LINK}",
+        "groupHomeHeader.membersCount": "{COUNT} members",
+        "groupHomeHeader.privacyPublicLabel": "Public group",
+        "groupHomeHeader.organizerText": "Organized by \\u003cb\\u003e{NAME}\\u003c/b\\u003e",
+        "groupHomeHeader.restOrganizers_v3": "{COUNT, plural, =0 {} one {and \\u003cb\\u003e# other\\u003c/b\\u003e} other {and \\u003cb\\u003e# others\\u003c/b\\u003e}}",
+        "groupHomeHeader.shareLabel": "Share",
+        "shareModal.email": "Email",
+        "groupHomeHeader.membeshipDropdownBtnAlt": "Group actions",
+        "groupHomeHeader.joinActionBtn": "Join this group",
+        "groupHomeHeader.aboutLink": "About",
+        "groupHomeHeader.eventsLink": "Events",
+        "groupHomeHeader.membersLink": "Members",
+        "groupHomeHeader.photosLink": "Photos",
+        "groupHomeHeader.discussionsLink": "Discussions",
+        "groupHomeHeader.moreBtn": "More",
+        "groupHomeHeader.moreModalTitle": "More",
+        "groupHomeHeader.upgradeToProModalHeader": "Feature locked",
+        "groupHomeHeader.upgradeToProModalDescription": "Upgrade to Meetup Pro to take ownership of your communication",
+        "groupHomeHeader.upgradeToProModalEmails": "Capture event attendee emails",
+        "groupHomeHeader.upgradeToProModalMailchimp": "Pull your Meetup email list into Mailchimp automatically",
+        "groupHomeHeader.upgradeToProModalCampaigns": "Customize your design and create automated campaigns",
+        "groupEvents.eventList": "List",
+        "groupEvents.eventCalendar": "Calendar",
+        "groupEvents.upcomingEvent": "Upcoming",
+        "groupEvents.pastEvent": "Past",
+        "groupHome.eventImageTitle": "{NAME} cover photo",
+        "avatar.photoOf": "Photo of {NAME}",
+        "groupHome.attendeesCount": "{COUNT, plural, one {# attendee} other {# attendees}}",
+        "groupHome.attendLabel": "Attend",
+        "groupHome.venueNoLocation": "Needs location",
+        "groupHome.closedRsvpLabel": "Not open",
+        "footer.meetupOnFacebook": "Meetup on Facebook",
+        "footer.meetupOnTwitter": "Meetup on Twitter",
+        "footer.meetupOnYoutube": "Meetup on YouTube",
+        "footer.meetupOnInstagram": "Instagram",
+        "footer.meetupOnTiktok": "TikTok",
+        "footer.createYourOwnGroup": "Create your own Meetup group.",
+        "footer.getStarted": "Get Started",
+        "footer.startNewGroup": "Start a new group",
+        "footer.yourAccount": "Your Account",
+        "footer.signUp": "Sign up",
+        "footer.logIn": "Log in",
+        "footer.help": "Help",
+        "footer.becomeAffiliate": "Become an Affiliate",
+        "footer.discover": "Discover",
+        "footer.groups": "Groups",
+        "footer.calendar": "Calendar",
+        "footer.topics": "Topics",
+        "footer.cities": "Cities",
+        "footer.onlineEvents": "Online Events",
+        "footer.localGuides": "Local Guides",
+        "footer.makeFriendsLp": "Make Friends",
+        "footer.meetupText": "Meetup",
+        "footer.about": "About",
+        "footer.blog": "Blog",
+        "footer.meetupPro": "Meetup Pro",
+        "footer.careers": "Careers",
+        "footer.apps": "Apps",
+        "footer.podcast": "Podcast",
+        "footer.followUs": "Follow us",
+        "footer.downloadFromGooglePlay": "Download app from Google Play",
+        "footer.downloadFromAppStore": "Download app from App Store",
+        "footer.meetupYear": "{YEAR} Meetup",
+        "footer.termsOfService": "Terms of Service",
+        "footer.privacyPolicy": "Privacy Policy",
+        "footer.cookiePolicy": "Cookie Policy"
+      },
+      "urlname": "reactgirls",
+      "__APOLLO_STATE__": {
+        "Group:36185136": {
+          "__typename": "Group",
+          "id": "36185136",
+          "name": "ReactGirls",
+          "events({\"filter\":{\"status\":[\"ACTIVE\"]},\"first\":10,\"sort\":\"ASC\"})": {
+            "__typename": "GroupEventConnection",
+            "totalCount": 5,
+            "pageInfo": {
+              "__typename": "PageInfo",
+              "endCursor": "MjkyNjg0MDI2OjE3MDAxNzU2MDAwMDA=",
+              "hasNextPage": false
+            },
+            "edges": [
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:295297774"
+                }
+              },
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:292684010"
+                }
+              },
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:295798732"
+                }
+              },
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:292684024"
+                }
+              },
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:292684026"
+                }
+              }
+            ]
+          },
+          "events({\"filter\":{\"status\":[\"PAST\"]},\"first\":1})": {
+            "__typename": "GroupEventConnection",
+            "totalCount": 13
+          },
+          "featuredEvent": null,
+          "activeTopics": [
+            {
+              "__ref": "Topic:15824"
+            },
+            {
+              "__ref": "Topic:100479"
+            },
+            {
+              "__ref": "Topic:120095"
+            },
+            {
+              "__ref": "Topic:659"
+            },
+            {
+              "__ref": "Topic:1973"
+            },
+            {
+              "__ref": "Topic:1504197"
+            },
+            {
+              "__ref": "Topic:15582"
+            },
+            {
+              "__ref": "Topic:53518"
+            },
+            {
+              "__ref": "Topic:85951"
+            }
+          ],
+          "topicCategory": {
+            "__ref": "TopicCategory:546"
+          },
+          "urlname": "reactgirls",
+          "timezone": "Europe/Prague",
+          "isPrivate": false,
+          "organizer": {
+            "__ref": "Member:356455500"
+          },
+          "stats": {
+            "__typename": "GroupStats",
+            "memberCounts": {
+              "__typename": "GroupMemberCounts",
+              "all": 629,
+              "leadership": 4,
+              "pending": 0
+            },
+            "eventRatings": {
+              "__typename": "GroupStatsEventRatings",
+              "average": 4.89,
+              "total": 80
+            }
+          },
+          "lat": 50.08,
+          "lon": 14.43,
+          "joinMode": "OPEN",
+          "isMember": false,
+          "status": "PAID",
+          "city": "Prague",
+          "state": "",
+          "country": "cz",
+          "keyGroupPhoto": {
+            "__ref": "PhotoInfo:515039583"
+          },
+          "proNetwork": null,
+          "isPrimaryOrganizer": false,
+          "membershipMetadata": null,
+          "events({\"filter\":{\"status\":[\"DRAFT\"]},\"first\":1})": {
+            "__typename": "GroupEventConnection",
+            "totalCount": 0
+          },
+          "needsQuestions": null,
+          "needsPhoto": null,
+          "questions": [],
+          "duesSettings": null,
+          "canAddPhotos": false
+        },
+        "Member:356455500": {
+          "__typename": "Member",
+          "id": "356455500",
+          "name": "ReactGirls",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:309563604"
+          },
+          "email": ""
+        },
+        "Venue:27152599": {
+          "__typename": "Venue",
+          "id": "27152599",
+          "name": "Pipedrive",
+          "address": "Pernerova 697/35, Karlín",
+          "city": "Praha-Praha 8",
+          "state": "",
+          "country": "cz"
+        },
+        "PhotoInfo:515322848": {
+          "__typename": "PhotoInfo",
+          "id": "515322848",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/a/7/6/0/highres_515322848.jpeg"
+        },
+        "PhotoInfo:309563604": {
+          "__typename": "PhotoInfo",
+          "id": "309563604",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/5/c/3/4/highres_309563604.jpeg"
+        },
+        "Rsvp:1966218030": {
+          "__typename": "Rsvp",
+          "id": "1966218030",
+          "member": {
+            "__ref": "Member:356455500"
+          }
+        },
+        "PhotoInfo:316275802": {
+          "__typename": "PhotoInfo",
+          "id": "316275802",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/d/b/a/highres_316275802.jpeg"
+        },
+        "Member:369792639": {
+          "__typename": "Member",
+          "id": "369792639",
+          "name": "Natália Rydzá",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:316275802"
+          }
+        },
+        "Rsvp:1966218035": {
+          "__typename": "Rsvp",
+          "id": "1966218035",
+          "member": {
+            "__ref": "Member:369792639"
+          }
+        },
+        "PhotoInfo:287925329": {
+          "__typename": "PhotoInfo",
+          "id": "287925329",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/b/1/1/1/highres_287925329.jpeg"
+        },
+        "Member:255517335": {
+          "__typename": "Member",
+          "id": "255517335",
+          "name": "Tereza Vaňková",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:287925329"
+          }
+        },
+        "Rsvp:1966218036": {
+          "__typename": "Rsvp",
+          "id": "1966218036",
+          "member": {
+            "__ref": "Member:255517335"
+          }
+        },
+        "PhotoInfo:262560498": {
+          "__typename": "PhotoInfo",
+          "id": "262560498",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/1/f/2/highres_262560498.jpeg"
+        },
+        "Member:208698723": {
+          "__typename": "Member",
+          "id": "208698723",
+          "name": "Daniel Srb",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:262560498"
+          }
+        },
+        "Rsvp:1966319326": {
+          "__typename": "Rsvp",
+          "id": "1966319326",
+          "member": {
+            "__ref": "Member:208698723"
+          }
+        },
+        "PhotoInfo:309699309": {
+          "__typename": "PhotoInfo",
+          "id": "309699309",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/9/9/8/d/highres_309699309.jpeg"
+        },
+        "Member:357160352": {
+          "__typename": "Member",
+          "id": "357160352",
+          "name": "Marcela Karafizievova",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:309699309"
+          }
+        },
+        "Rsvp:1966338638": {
+          "__typename": "Rsvp",
+          "id": "1966338638",
+          "member": {
+            "__ref": "Member:357160352"
+          }
+        },
+        "Event:295297774": {
+          "__typename": "Event",
+          "id": "295297774",
+          "title": "[EN] ReactGirls \\u0026 Jigx meetup",
+          "eventUrl": "https://www.meetup.com/reactgirls/events/295297774/",
+          "description": "**Prague frontend meetup of [ReactGirls](https://reactgirls.com/) community.**\n\n🇬🇧 **This meetup will be held in English.**\n\n**When:** September 7th, from 6pm\n\n**Where:** offices [Pipedrive](https://www.pipedrive.com/cs/gettingstarted?gclid=Cj0KCQjwrMKmBhCJARIsAHuEAPS_rTAr6Q51aqjtmW8bxTd7kTFQNzdbgpIVGepNrBrBiScOawTCEYcaAubREALw_wcB), Pernerova 697/35, 186 00 Karlín\n\n**Timetable:**\n\n**🕕 18.00** opening\n\n**🎙 18.30** Talk 1:\n\n**CONNECTING DOTS IN DIGITAL BUSINESS**\n\n**[Filip Holický](https://www.linkedin.com/in/filip-holicky/),** Frontend Developer, Jigx\n\nJoin us as we navigate the process of converting dreams into tangible business successes. Learn how the power of React and other digital tools can turn your innovative ideas into value-driven solutions. More than just profits, we'll explore how a digital business is about creating meaningful impact and truly helping people. Whether you dream of launching a startup or reshaping the digital landscape, discover how to connect the dots to create lasting opportunities. Dive into the world of digital business where purpose meets innovation.\n\n**Filip**, with a background in economics and business, has always been passionate about creating. His love for artistry steered him towards the dynamic realm of IT. As a developer, he seamlessly marries function with beauty in each digital solution, consistently aiming to provide a delightful experience for users.\n\n**🎙 19:00** Talk 2:\n\n**PERFORMANCE OPTIMIZATION IN REACT**\n\n**[Matúš König](https://www.linkedin.com/in/matuskonig/)**, Frontend Engineer, Mews\n\nEvery application reaches a point, where it can't do any faster. We will disscuss common code weak points and real-life misconceptions about performance. We will learn simple ways to identify and fix performance pitfals and write fast code from the first keystroke. Enjoy the deep dive into fluent web applications, fast codebases and a world of endless optimalization.\n\n**Matúš** is a frontend engineer at Mews working at Reservations team. While they are a product team, performance optimalization and scalability is his thing for quite a time. He got a passion into frontend when He was of a young age and it never left him since. He is also a student of Charles university interested in AI.\n\n**🎙 19.30** Talk 3:\n\n**WILL IT RERENDER**\n\n**[Miguel Jacinto](https://www.linkedin.com/in/miguel-jacinto-4a8910a7/),** Frontend Developer, Pipedrive\n\nA look into when and why react rerenders and some tricks to avoid it.\n\n**Miguel** is portuguese but he has been living in Prague for 2 years. Have been working as a developer for around 9 years, started as a fullstack PHP developer and started working in pipedrive almost 5 years ago which is when he started working with frontend and react too.\n\n**20.00** Networking\n\nℹ️ We regularly take photos and videos at our events. We use photos and videos to promote our activities on the web and on social media. If you don't want to be in the photos, let the on-site organizers know.\n\nWe look forward to it!\n\nReactGirls team",
+          "group": {
+            "__ref": "Group:36185136"
+          },
+          "creatorMember": {
+            "__ref": "Member:356455500"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "356455500"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "369792639"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "255517335"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:27152599"
+          },
+          "dateTime": "2023-09-07T18:00:00+02:00",
+          "createdTime": "2023-08-07T08:31:48-04:00",
+          "endTime": "2023-09-07T20:00:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 78
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "ACTIVE",
+          "series": null,
+          "featuredEventPhoto": {
+            "__ref": "PhotoInfo:515322848"
+          },
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966218030"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966218035"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966218036"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966319326"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966338638"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null
+        },
+        "Venue:26427236": {
+          "__typename": "Venue",
+          "id": "26427236",
+          "name": "Applifting s.r.o.",
+          "address": "Rohanské nábř. 19, Karlín",
+          "city": "Praha-Praha 8",
+          "state": "",
+          "country": "cz"
+        },
+        "Rsvp:1951545340": {
+          "__typename": "Rsvp",
+          "id": "1951545340",
+          "member": {
+            "__ref": "Member:356455500"
+          }
+        },
+        "Member:397474815": {
+          "__typename": "Member",
+          "id": "397474815",
+          "name": "Anna Kopylova",
+          "memberPhoto": null
+        },
+        "Rsvp:1966693335": {
+          "__typename": "Rsvp",
+          "id": "1966693335",
+          "member": {
+            "__ref": "Member:397474815"
+          }
+        },
+        "PhotoInfo:312472820": {
+          "__typename": "PhotoInfo",
+          "id": "312472820",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/c/e/5/4/highres_312472820.jpeg"
+        },
+        "Member:370840428": {
+          "__typename": "Member",
+          "id": "370840428",
+          "name": "Oxana Kraynova",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:312472820"
+          }
+        },
+        "Rsvp:1966693518": {
+          "__typename": "Rsvp",
+          "id": "1966693518",
+          "member": {
+            "__ref": "Member:370840428"
+          }
+        },
+        "PhotoInfo:291590430": {
+          "__typename": "PhotoInfo",
+          "id": "291590430",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/c/4/f/e/highres_291590430.jpeg"
+        },
+        "Member:287911341": {
+          "__typename": "Member",
+          "id": "287911341",
+          "name": "Petra Zemanová",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:291590430"
+          }
+        },
+        "Rsvp:1966693552": {
+          "__typename": "Rsvp",
+          "id": "1966693552",
+          "member": {
+            "__ref": "Member:287911341"
+          }
+        },
+        "PhotoInfo:311714096": {
+          "__typename": "PhotoInfo",
+          "id": "311714096",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/7/1/0/highres_311714096.jpeg"
+        },
+        "Member:367180242": {
+          "__typename": "Member",
+          "id": "367180242",
+          "name": "Ekaterina Melnichuk",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:311714096"
+          }
+        },
+        "Rsvp:1966693754": {
+          "__typename": "Rsvp",
+          "id": "1966693754",
+          "member": {
+            "__ref": "Member:367180242"
+          }
+        },
+        "Event:292684010": {
+          "__typename": "Event",
+          "id": "292684010",
+          "title": "ReactGirls \\u0026 Applifting meetup",
+          "eventUrl": "https://www.meetup.com/reactgirls/events/292684010/",
+          "description": "**Pražský frontendový meetup komunity** [ReactGirls](https://reactgirls.com/).\n\n**Kdy:** 21.9. od 18h\n\n**Kde:** kanceláře [Applifting](https://www.applifting.cz/), Rohanské nábř. 19, Praha - Karlín\n\nBrzy doplníme bližší informace o speakerech a přednáškách.\n\n**Chceš přednášet na našem meetupu?** Vyplň nám přihlášku a my se ti ozveme. Přednášku u nás můžeš mít na libovolné téma, týkající se vývoje. Vítáme ale i softovější témata.\n\n**Přihláška:** [bit.ly/meetup-prihlaska](bit.ly/meetup-prihlaska)\n\nℹ️ Na našich eventech pravidelně fotíme a natáčíme. Fotky a videa používáme k propagaci našich aktivit na webu a sociálních sítích. Pokud na fotkách být nechceš, dej vědět organizátorům na místě.\n\nTěšíme se!\n\nTým ReactGirls",
+          "group": {
+            "__ref": "Group:36185136"
+          },
+          "creatorMember": {
+            "__ref": "Member:356455500"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "356455500"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:26427236"
+          },
+          "dateTime": "2023-09-21T18:00:00+02:00",
+          "createdTime": "2023-04-04T11:16:38-04:00",
+          "endTime": "2023-09-21T20:00:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 43
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "ACTIVE",
+          "series": null,
+          "featuredEventPhoto": null,
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1951545340"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966693335"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966693518"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966693552"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1966693754"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null
+        },
+        "Rsvp:1969003402": {
+          "__typename": "Rsvp",
+          "id": "1969003402",
+          "member": {
+            "__ref": "Member:356455500"
+          }
+        },
+        "Event:295798732": {
+          "__typename": "Event",
+          "id": "295798732",
+          "title": "ReactBeer",
+          "eventUrl": "https://www.meetup.com/reactgirls/events/295798732/",
+          "description": "**Neformální setkání Pražské frontendové komunity** [ReactGirls](https://reactgirls.com/).\n\n**Kdy:** 29.9. od 18h\n\n**Kde:** TBA\n\nBrzy doplníme další informace o akci",
+          "group": {
+            "__ref": "Group:36185136"
+          },
+          "creatorMember": {
+            "__ref": "Member:356455500"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "356455500"
+            }
+          ],
+          "feeSettings": null,
+          "venue": null,
+          "dateTime": "2023-09-29T18:00:00+02:00",
+          "createdTime": "2023-08-31T07:21:59-04:00",
+          "endTime": "2023-09-29T21:00:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 1
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "ACTIVE",
+          "series": null,
+          "featuredEventPhoto": null,
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1969003402"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null
+        },
+        "Venue:26621091": {
+          "__typename": "Venue",
+          "id": "26621091",
+          "name": "Mews",
+          "address": "nám. I. P. Pavlova 5, Vinohrady",
+          "city": "Praha-Praha 2",
+          "state": "",
+          "country": "cz"
+        },
+        "Rsvp:1951545399": {
+          "__typename": "Rsvp",
+          "id": "1951545399",
+          "member": {
+            "__ref": "Member:356455500"
+          }
+        },
+        "Event:292684024": {
+          "__typename": "Event",
+          "id": "292684024",
+          "title": "ReactGirls \\u0026 Mews meetup",
+          "eventUrl": "https://www.meetup.com/reactgirls/events/292684024/",
+          "description": "**Pražský frontendový meetup komunity** [ReactGirls](https://reactgirls.com/).\n\n**Kdy:** 19.10. od 18h\n\n**Kde:** kanceláře [Mews](https://www.mews.com/en), nám. I. P. Pavlova 5, Praha\n\nBrzy doplníme bližší informace o speakerech a přednáškách.\n\n**Chceš přednášet na našem meetupu?** Vyplň nám přihlášku a my se ti ozveme. Přednášku u nás můžeš mít na libovolné téma, týkající se vývoje. Vítáme ale i softovější témata.\n\n**Přihláška:** [bit.ly/meetup-prihlaska](bit.ly/meetup-prihlaska)\n\nℹ️ Na našich eventech pravidelně fotíme a natáčíme. Fotky a videa používáme k propagaci našich aktivit na webu a sociálních sítích. Pokud na fotkách být nechceš, dej vědět organizátorům na místě.\n\nTěšíme se!\n\nTým ReactGirls",
+          "group": {
+            "__ref": "Group:36185136"
+          },
+          "creatorMember": {
+            "__ref": "Member:356455500"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "356455500"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:26621091"
+          },
+          "dateTime": "2023-10-19T18:00:00+02:00",
+          "createdTime": "2023-04-04T11:17:11-04:00",
+          "endTime": "2023-10-19T20:00:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 1
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "ACTIVE",
+          "series": null,
+          "featuredEventPhoto": null,
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1951545399"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": true
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null
+        },
+        "Venue:26848725": {
+          "__typename": "Venue",
+          "id": "26848725",
+          "name": "Gemini A",
+          "address": "Gemini A",
+          "city": "Praha 4",
+          "state": "",
+          "country": "cz"
+        },
+        "Rsvp:1951545435": {
+          "__typename": "Rsvp",
+          "id": "1951545435",
+          "member": {
+            "__ref": "Member:356455500"
+          }
+        },
+        "Event:292684026": {
+          "__typename": "Event",
+          "id": "292684026",
+          "title": "ReactGirls \\u0026 Barclays meetup",
+          "eventUrl": "https://www.meetup.com/reactgirls/events/292684026/",
+          "description": "**Pražský frontendový meetup komunity** [ReactGirls](https://reactgirls.com/).\n\n**Kdy:** 16.11. od 18h\n\n**Kde:** kanceláře Barclays\n\nGemini Building A, Na Pankráci 1724/129, Praha 4\n\nBrzy doplníme bližší informace o speakerech a přednáškách.\n\n**Chceš přednášet na našem meetupu?** Vyplň nám přihlášku a my se ti ozveme. Přednášku u nás můžeš mít na libovolné téma, týkající se vývoje. Vítáme ale i softovější témata.\n\n**Přihláška:** [bit.ly/meetup-prihlaska](bit.ly/meetup-prihlaska)\n\nℹ️ Na našich eventech pravidelně fotíme a natáčíme. Fotky a videa používáme k propagaci našich aktivit na webu a sociálních sítích. Pokud na fotkách být nechceš, dej vědět organizátorům na místě.\n\nTěšíme se!\n\nTým ReactGirls",
+          "group": {
+            "__ref": "Group:36185136"
+          },
+          "creatorMember": {
+            "__ref": "Member:356455500"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "356455500"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:26848725"
+          },
+          "dateTime": "2023-11-16T18:00:00+01:00",
+          "createdTime": "2023-04-04T11:17:40-04:00",
+          "endTime": "2023-11-16T20:00:00+01:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 1
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "ACTIVE",
+          "series": null,
+          "featuredEventPhoto": null,
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1951545435"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": true
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null
+        },
+        "ROOT_QUERY": {
+          "__typename": "Query",
+          "groupByUrlname({\"urlname\":\"reactgirls\"})": {
+            "__ref": "Group:36185136"
+          },
+          "self": null
+        },
+        "Topic:15824": {
+          "__typename": "Topic",
+          "id": "15824",
+          "name": "Community",
+          "urlkey": "community"
+        },
+        "Topic:100479": {
+          "__typename": "Topic",
+          "id": "100479",
+          "name": "Front-end Development",
+          "urlkey": "front-end-development"
+        },
+        "Topic:120095": {
+          "__typename": "Topic",
+          "id": "120095",
+          "name": "Software Development",
+          "urlkey": "software-development"
+        },
+        "Topic:659": {
+          "__typename": "Topic",
+          "id": "659",
+          "name": "Web Design",
+          "urlkey": "web-design"
+        },
+        "Topic:1973": {
+          "__typename": "Topic",
+          "id": "1973",
+          "name": "CSS",
+          "urlkey": "css"
+        },
+        "Topic:1504197": {
+          "__typename": "Topic",
+          "id": "1504197",
+          "name": "JavaScript",
+          "urlkey": "javascript"
+        },
+        "Topic:15582": {
+          "__typename": "Topic",
+          "id": "15582",
+          "name": "Web Development",
+          "urlkey": "web-development"
+        },
+        "Topic:53518": {
+          "__typename": "Topic",
+          "id": "53518",
+          "name": "HTML \\u0026 CSS",
+          "urlkey": "html-css"
+        },
+        "Topic:85951": {
+          "__typename": "Topic",
+          "id": "85951",
+          "name": "JavaScript Frameworks",
+          "urlkey": "javascript-frameworks"
+        },
+        "TopicCategory:546": {
+          "__typename": "TopicCategory",
+          "id": "546",
+          "name": "Technology",
+          "urlkey": "technology"
+        },
+        "PhotoInfo:515039583": {
+          "__typename": "PhotoInfo",
+          "id": "515039583",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/e/8/b/f/highres_515039583.jpeg"
+        }
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/[slug]/events",
+  "query": {
+    "slug": "reactgirls"
+  },
+  "buildId": "0c124aa39bb9d6b35afd217d772ec73c0ae145db",
+  "isFallback": false,
+  "gssp": true,
+  "locale": "en-US",
+  "locales": [
+    "en-US",
+    "en-AU",
+    "de",
+    "de-DE",
+    "es",
+    "es-ES",
+    "fr",
+    "fr-FR",
+    "it",
+    "it-IT",
+    "ja",
+    "ja-JP",
+    "ko",
+    "ko-KR",
+    "nl",
+    "nl-NL",
+    "pl",
+    "pl-PL",
+    "pt",
+    "pt-BR",
+    "ru",
+    "ru-RU",
+    "tr",
+    "tr-TR",
+    "th-TH"
+  ],
+  "defaultLocale": "en-US",
+  "scriptLoader": []
+}

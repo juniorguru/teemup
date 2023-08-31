@@ -29,7 +29,7 @@ The example above is [tested](https://docs.pytest.org/doctest.html) and thus doe
 If the website changes, update the fixture:
 
 ```
-curl https://www.meetup.com/reactgirls/ > test_fixture.html
+curl https://www.meetup.com/reactgirls/ > test_fixtures/response_content.html
 ```
 
 Then run `poetry run pytest`.

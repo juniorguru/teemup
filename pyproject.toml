@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "teemup"
-version = "1.0.0"
+version = "1.0.1"
 description = "If Meetup didn't become a walled garden, the world wouldn't need Teemup"
 authors = ["Honza Javorek <mail@honzajavorek.cz>"]
 license = "MIT"

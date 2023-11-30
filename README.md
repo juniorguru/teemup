@@ -11,13 +11,14 @@ This library takes HTML source of a meetup group page on Meetup and returns a li
 ```python
 >>> import urllib.request
 >>> from teemup import parse
->>> with urllib.request.urlopen('https://www.meetup.com/reactgirls/') as f:
+>>> with urllib.request.urlopen('https://www.meetup.com/professionaltesting/') as f:
 ...     html = f.read()
 ...
 >>> events = parse(html)
->>> sorted(events[0].keys())
+>>> event = events[0]
+>>> sorted(event.keys())
 ['description', 'ends_at', 'starts_at', 'title', 'url', 'venue']
->>> sorted(events[0]['venue'])
+>>> sorted(event['venue'])
 ['address', 'city', 'country', 'name', 'state']
 
 ```

@@ -11,7 +11,7 @@ This library takes HTML source of a meetup group page on Meetup and returns a li
 ```python
 >>> import urllib.request
 >>> from teemup import parse
->>> with urllib.request.urlopen('https://www.meetup.com/professionaltesting/') as f:
+>>> with urllib.request.urlopen('https://www.meetup.com/frontendisti/') as f:
 ...     html = f.read()
 ...
 >>> events = parse(html)

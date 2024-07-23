@@ -12,7 +12,7 @@ lxml = "5.2.2"
 cssselect = "1.2.0"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "8.2.2"
+pytest = "8.3.1"
 black = "24.4.2"
 
 [tool.pytest.ini_options]

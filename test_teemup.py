@@ -62,6 +62,22 @@ def test_parse_next_state_can_deal_with_missing_venue():
     ]
 
 
+def test_parse_next_state_can_deal_with_online_venue():
+    with open("test_fixtures/next_state_online_venue.json") as f:
+        next_state = json.load(f)
+    events = parse_next_state(next_state)
+    event_with_online_venue = [event for event in events if event["venue"] is None][0]
+
+    assert sorted(event_with_online_venue.keys()) == [
+        "description",
+        "ends_at",
+        "starts_at",
+        "title",
+        "url",
+        "venue",
+    ]
+
+
 def test_parse_venue():
     venue = {
         "__typename": "Venue",
@@ -80,3 +96,17 @@ def test_parse_venue():
         "state": None,
         "country": "cz",
     }
+
+
+def test_parse_online_venue():
+    venue = {
+        "__typename": "Venue",
+        "id": "26906060",
+        "name": "Online event",
+        "address": "",
+        "city": "",
+        "state": "",
+        "country": "",
+    }
+
+    assert parse_venue(venue) is None

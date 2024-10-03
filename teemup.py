@@ -32,11 +32,17 @@ def parse_next_state(next_state: dict) -> list[dict[str, Any]]:
     ]
 
 
-def parse_venue(venue: dict) -> dict:
-    return {
-        "name": venue.get("name") or None,
-        "address": venue.get("address") or None,
-        "city": venue.get("city") or None,
-        "state": venue.get("state") or None,
-        "country": venue.get("country") or None,
-    }
+def parse_venue(venue: dict) -> dict | None:
+    result = {}
+    for key in ["name", "address", "city", "state", "country"]:
+        result[key] = venue.get(key) or None
+    if (
+        result["name"]
+        and result["name"].lower() == "online event"
+        and result["address"] is None
+        and result["city"] is None
+        and result["state"] is None
+        and result["country"] is None
+    ):
+        return None
+    return result

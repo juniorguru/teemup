@@ -1,0 +1,1470 @@
+{
+  "props": {
+    "pageProps": {
+      "isMobile": false,
+      "showMobileBanner": true,
+      "memberLocale": "en-US",
+      "localeMessages": {
+        "a11y.skipToContent": "Skip to content",
+        "groupHome.title": "{GROUP}",
+        "desktopHeader.meetupLogo": "Meetup logo",
+        "groupHomeHeader.coverPhotoAltText": "{NAME} cover photo",
+        "groupHomeHeader.privacyPublicHelp": "This group’s content, including its members and event details, are visible to the public. {LINK}",
+        "groupHomeHeader.proHelp_v2": "This group is in a Meetup Pro network. Network administrators can see member details such as attendance. {LINK}",
+        "groupHomeHeader.proTitle": "Part of {LINK}",
+        "groupHomeHeader.proTitleCount": "{COUNT} groups",
+        "groupHomeHeader.membersCount": "{COUNT} members",
+        "groupHomeHeader.privacyPublicLabel": "Public group",
+        "groupHomeHeader.organizerText": "Organized by \\u003cb\\u003e{NAME}\\u003c/b\\u003e",
+        "groupHomeHeader.restOrganizers_v3": "{COUNT, plural, =0 {} one {and \\u003cb\\u003e# other\\u003c/b\\u003e} other {and \\u003cb\\u003e# others\\u003c/b\\u003e}}",
+        "groupHomeHeader.shareLabel": "Share",
+        "shareModal.email": "Email",
+        "groupHomeHeader.membeshipDropdownBtnAlt": "Group actions",
+        "groupHomeHeader.joinActionBtn": "Join this group",
+        "groupHomeHeader.aboutLink": "About",
+        "groupHomeHeader.eventsLink": "Events",
+        "groupHomeHeader.membersLink": "Members",
+        "groupHomeHeader.photosLink": "Photos",
+        "groupHomeHeader.discussionsLink": "Discussions",
+        "groupHomeHeader.moreBtn": "More",
+        "groupHomeHeader.moreModalTitle": "More",
+        "groupHome.descriptionTitle": "What we’re about",
+        "groupHome.upcomingEventsWithCount": "Upcoming events ({COUNT})",
+        "groupHome.seeAllEventLink": "See all",
+        "groupHome.hiddenLink": "Link visible for attendees",
+        "groupHome.eventImageTitle": "{NAME} cover photo",
+        "event-home.networkEventTooltipMessage": "A network event is created by a network administrator and visible across 2 or more groups.",
+        "event-home.networkEvent": "Network event",
+        "event-home.numberOfAttendees.v3": "{count, plural, one {# attendee} other {# attendees}}",
+        "event-home.fromGroups.v2": "from {NUM_OF_GROUPS} groups hosting",
+        "groupHome.attendLabel": "Attend",
+        "groupHome.pastEventsWithCount": "Past events ({COUNT})",
+        "groupHome.eventPassed": "This event has passed",
+        "avatar.photoOf": "Photo of {NAME}",
+        "groupHome.attendeesCount": "{COUNT, plural, one {# attendee} other {# attendees}}",
+        "groupHome.membersLink": "See group members",
+        "groupHome.orgsTitle_v2": "{COUNT, plural, =0 {Organizer} other {Organizers}}",
+        "groupHome.groupOrgs_v2": "\\u003cstrong\\u003e{NAME}\\u003c/strong\\u003e {COUNT, plural, =0 {} one {and \\u003cstrong\\u003e# other\\u003c/strong\\u003e} other {and \\u003cstrong\\u003e# others\\u003c/strong\\u003e}}",
+        "groupHome.orgsMessageLink": "Message",
+        "groupHome.membersTitle_v2": "{COUNT, plural, =1 {Member (#)} other {Members (#)}}",
+        "groupHome.seeAllMembersLink": "See all",
+        "groupHome.linksTitle": "Group links",
+        "groupHome.networkLinksTitle": "Find us also at",
+        "groupHome.socialTwitterBtn": "Twitter",
+        "groupHome.topicsTitle": "Related topics",
+        "footer.meetupOnFacebook": "Meetup on Facebook",
+        "footer.meetupOnTwitter": "Meetup on Twitter",
+        "footer.meetupOnYoutube": "Meetup on YouTube",
+        "footer.meetupOnInstagram": "Instagram",
+        "footer.meetupOnTiktok": "TikTok",
+        "footer.createYourOwnGroup": "Create your own Meetup group.",
+        "footer.getStarted": "Get Started",
+        "footer.startNewGroup": "Start a new group",
+        "footer.yourAccount": "Your Account",
+        "footer.signUp": "Sign up",
+        "footer.logIn": "Log in",
+        "footer.help": "Help",
+        "footer.becomeAffiliate": "Become an Affiliate",
+        "footer.discover": "Discover",
+        "footer.groups": "Groups",
+        "footer.calendar": "Calendar",
+        "footer.topics": "Topics",
+        "footer.cities": "Cities",
+        "footer.onlineEvents": "Online Events",
+        "footer.localGuides": "Local Guides",
+        "footer.makeFriendsLp": "Make Friends",
+        "footer.meetupText": "Meetup",
+        "footer.about": "About",
+        "footer.blog": "Blog",
+        "footer.meetupPro": "Meetup Pro",
+        "footer.careers": "Careers",
+        "footer.apps": "Apps",
+        "footer.podcast": "Podcast",
+        "footer.followUs": "Follow us",
+        "footer.downloadFromGooglePlay": "Download app from Google Play",
+        "footer.downloadFromAppStore": "Download app from App Store",
+        "footer.meetupYear": "{YEAR} Meetup",
+        "footer.termsOfService": "Terms of Service",
+        "footer.privacyPolicy": "Privacy Policy",
+        "footer.cookiePolicy": "Cookie Policy"
+      },
+      "urlname": "pydata-prague",
+      "__APOLLO_STATE__": {
+        "ROOT_QUERY": {
+          "__typename": "Query",
+          "self": null,
+          "groupByUrlname({\"urlname\":\"pydata-prague\"})": {
+            "__ref": "Group:29269468"
+          }
+        },
+        "Group:29269468": {
+          "__typename": "Group",
+          "id": "29269468",
+          "name": "PyData Prague",
+          "description": "\\u003cp\\u003ePyData Prague aims to unite data analysts, engineers, scientists, and others involved in the usage, developments, and support of open source technologies in the area of scientific computation. These include pandas, numpy, IPython, R, matplotlib, Julia, Jupyter, and other related projects.\\u003c/p\\u003e\n\\u003cp\\u003eWe ultimately aim to organise meetups as well as conferences, we want to provide a platform for spreading the ideas revolving around open technologies that help us in day to day work, be it commercial, non-profit, or educational.\\u003c/p\\u003e\n\\u003cp\\u003e---\\u003c/p\\u003e\n\\u003cp\\u003eIf you have any questions, don't hesitate to contact me, Ondrej, at ondrej.kokes@gmail.com. We're open to all sorts of topics, so feel free to suggest what you want to discuss or present yourself.\\u003c/p\\u003e\n\\u003cp\\u003eThere's a Czech Python Slack where we have a channel intended for PyData organisational purposes.\\u0026nbsp;Ping me an email if you want to be a part of this, we welcome support in all shapes and forms.\\u003c/p\\u003e\n\\u003cp\\u003eIn case you want to keep track via Facebook, you can join this group -\\u0026nbsp;\\u003ca href=\"https://www.facebook.com/groups/pydataprague\"\\u003ehttps://www.facebook.com/groups/pydataprague\\u003c/a\\u003e\\u003c/p\\u003e\n\\u003cp\\u003e---\\u003c/p\\u003e\n\\u003cp\\u003ePyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.\\u003c/p\\u003e\n\\u003cp\\u003e\\u003cspan\\u003eThe PyData Code of Conduct (\\u003c/span\\u003e\\u003ca href=\"https://meet.meetup.com/wf/click?upn=l-2FmQxaNVahlcgIEBhFi3TtAT5F0zNXwTmkuRMnL7QggFOHeFlCTbWeaUlZcHXTl8_SOZgderJvcqhQFbfO3RPxOyDce4DwxQkMvjK-2Fx-2FNUThsopwKJWBfrFLNNxWvumUQ5WxSXbhv4wRK5D5wKH9f6rKj6i8LOJD9mn-2BRD0DME9N-2FvCa2iYnuWmq44GxUL83ahnWcTy4GeYn3mpYzx5Z-2FOTI5CcsNdLUxngzi0zytTYmIAQyMvTHeXy5ZHrKy-2BEZ48fm4sQRpm2QPMYGsycrv1Q-3D-3D\"\\u003ehttp://pydata.org/code-of-conduct.html\\u003c/a\\u003e\\u003cspan\\u003e) governs this meetup. To discuss any issues or concerns relating to the code of conduct or the behavior of anyone at a PyData meetup, please contact the local group organizers (message us on the meetup page). Please also submit a report of any potential Code of Conduct violation directly to NumFOCUS:\\u0026nbsp;\\u003c/span\\u003e\\u003ca href=\"https://numfocus.typeform.com/to/ynjGdT\"\\u003ehttps://numfocus.typeform.com/to/ynjGdT\\u003c/a\\u003e.\\u0026nbsp;\\u003cspan\\u003eThank you for helping us to maintain a welcoming and friendly PyData community!\\u003c/span\\u003e\\u003c/p\\u003e",
+          "video": null,
+          "events({\"filter\":{\"status\":[\"PAST\"]},\"first\":4,\"sort\":\"DESC\"})": {
+            "__typename": "GroupEventConnection",
+            "totalCount": 27,
+            "edges": [
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:302432072"
+                }
+              },
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:301435048"
+                }
+              },
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:300721007"
+                }
+              },
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:300451488"
+                }
+              }
+            ]
+          },
+          "activeTopics": [
+            {
+              "__ref": "Topic:8192"
+            },
+            {
+              "__ref": "Topic:120095"
+            },
+            {
+              "__ref": "Topic:9696"
+            },
+            {
+              "__ref": "Topic:10538"
+            },
+            {
+              "__ref": "Topic:18865"
+            },
+            {
+              "__ref": "Topic:1056672"
+            },
+            {
+              "__ref": "Topic:25899"
+            },
+            {
+              "__ref": "Topic:584902"
+            },
+            {
+              "__ref": "Topic:1515085"
+            },
+            {
+              "__ref": "Topic:37381"
+            },
+            {
+              "__ref": "Topic:1139042"
+            },
+            {
+              "__ref": "Topic:32528"
+            }
+          ],
+          "topicCategory": {
+            "__ref": "TopicCategory:546"
+          },
+          "sponsors": {
+            "__typename": "ProGroupSponsorsConnection",
+            "edges": []
+          },
+          "foundedDate": "2018-07-16T15:03:40+02:00",
+          "socialNetworks": [
+            {
+              "__typename": "SocialNetwork",
+              "identifier": "@PyDataPrague",
+              "url": "http://twitter.com/PyDataPrague/",
+              "service": "TWITTER"
+            }
+          ],
+          "memberships({\"filter\":{\"status\":[\"ACTIVE\",\"LEADER\"]},\"first\":17})": {
+            "__typename": "GroupMemberConnection",
+            "edges": [
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:156078452"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:208698723"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:12331991"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:234013557"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:174822432"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:259142772"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:202612681"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:128500682"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:201863256"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:259143020"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:223364576"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:42680152"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:245190602"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:257109820"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:187012679"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:12250849"
+                }
+              },
+              {
+                "__typename": "GroupMemberEdge",
+                "node": {
+                  "__ref": "Member:6689157"
+                }
+              }
+            ]
+          },
+          "stepUpInfo": {
+            "__typename": "StepUpInfo",
+            "organizerNominees": []
+          },
+          "urlname": "PyData-Prague",
+          "timezone": "Europe/Prague",
+          "emailAnnounceAddress": "meetup-group-MOCbgnVd-announce@messages.meetup.com",
+          "isPrivate": false,
+          "organizer": {
+            "__ref": "Member:156078452"
+          },
+          "stats": {
+            "__typename": "GroupStats",
+            "memberCounts": {
+              "__typename": "GroupMemberCounts",
+              "all": 1781,
+              "leadership": 7,
+              "pending": 0
+            },
+            "eventRatings": {
+              "__typename": "GroupStatsEventRatings",
+              "average": 4.71,
+              "total": 229
+            }
+          },
+          "lat": 50.08,
+          "lon": 14.43,
+          "joinMode": "OPEN",
+          "isMember": false,
+          "status": "PAID",
+          "city": "Prague",
+          "state": "",
+          "country": "cz",
+          "keyGroupPhoto": {
+            "__ref": "PhotoInfo:518310352"
+          },
+          "proNetwork": {
+            "__ref": "ProNetwork:250564666426155008"
+          },
+          "isPrimaryOrganizer": false,
+          "membershipMetadata": null,
+          "events({\"filter\":{\"status\":[\"DRAFT\"]},\"first\":1})": {
+            "__typename": "GroupEventConnection",
+            "totalCount": 0
+          },
+          "needsQuestions": false,
+          "needsPhoto": false,
+          "questions": [],
+          "duesSettings": null,
+          "canAddPhotos": false,
+          "calendarFeeds": null,
+          "featuredEvent": null,
+          "events({\"filter\":{\"status\":[\"ACTIVE\"]},\"first\":4,\"sort\":\"ASC\"})": {
+            "__typename": "GroupEventConnection",
+            "totalCount": 1,
+            "edges": [
+              {
+                "__typename": "EventEdge",
+                "node": {
+                  "__ref": "Event:303797771"
+                }
+              }
+            ]
+          }
+        },
+        "Member:259706018": {
+          "__typename": "Member",
+          "id": "259706018",
+          "name": "Adam Křenek",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:302137204"
+          }
+        },
+        "Venue:27855750": {
+          "__typename": "Venue",
+          "id": "27855750",
+          "name": "Golemio Offices",
+          "address": "Dělnická 213/12, Rosmarin Business Center - 9th floor",
+          "city": "Hlavní město Praha",
+          "state": "",
+          "country": "CZ"
+        },
+        "PhotoInfo:522527477": {
+          "__typename": "PhotoInfo",
+          "id": "522527477",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/b/9/7/5/highres_522527477.jpeg"
+        },
+        "PhotoInfo:264927729": {
+          "__typename": "PhotoInfo",
+          "id": "264927729",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/6/c/5/1/highres_264927729.jpeg"
+        },
+        "Member:223364576": {
+          "__typename": "Member",
+          "id": "223364576",
+          "name": "Jan Pipek",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:264927729"
+          }
+        },
+        "Rsvp:2004447212": {
+          "__typename": "Rsvp",
+          "id": "2004447212",
+          "member": {
+            "__ref": "Member:223364576"
+          }
+        },
+        "PhotoInfo:302137204": {
+          "__typename": "PhotoInfo",
+          "id": "302137204",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/9/1/5/4/highres_302137204.jpeg"
+        },
+        "Rsvp:2004447213": {
+          "__typename": "Rsvp",
+          "id": "2004447213",
+          "member": {
+            "__ref": "Member:259706018"
+          }
+        },
+        "PhotoInfo:317387108": {
+          "__typename": "PhotoInfo",
+          "id": "317387108",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/b/8/0/4/highres_317387108.jpeg"
+        },
+        "Member:230150957": {
+          "__typename": "Member",
+          "id": "230150957",
+          "name": "Jakub Urban",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:317387108"
+          }
+        },
+        "Rsvp:2004447214": {
+          "__typename": "Rsvp",
+          "id": "2004447214",
+          "member": {
+            "__ref": "Member:230150957"
+          }
+        },
+        "PhotoInfo:316452388": {
+          "__typename": "PhotoInfo",
+          "id": "316452388",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/0/6/4/highres_316452388.jpeg"
+        },
+        "Member:282384522": {
+          "__typename": "Member",
+          "id": "282384522",
+          "name": "Sena S.",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:316452388"
+          }
+        },
+        "Rsvp:2004447216": {
+          "__typename": "Rsvp",
+          "id": "2004447216",
+          "member": {
+            "__ref": "Member:282384522"
+          }
+        },
+        "PhotoInfo:319865063": {
+          "__typename": "PhotoInfo",
+          "id": "319865063",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/1/3/c/7/highres_319865063.jpeg"
+        },
+        "Member:405094109": {
+          "__typename": "Member",
+          "id": "405094109",
+          "name": "Ostap Semenchuk",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:319865063"
+          }
+        },
+        "Rsvp:2004448589": {
+          "__typename": "Rsvp",
+          "id": "2004448589",
+          "member": {
+            "__ref": "Member:405094109"
+          }
+        },
+        "Event:302432072": {
+          "__typename": "Event",
+          "id": "302432072",
+          "title": "PyData Prague #22 - Summer Special Edition",
+          "eventUrl": "https://www.meetup.com/pydata-prague/events/302432072/",
+          "description": "Hello Python lovers and data devourers!\n\nSummertime is here and we would like to celebrate it with you in the form of our 22nd meetup of PyData Prague! This time devoted to networking and data based discussions, supported by plentiful refreshments. No talks are scheduled.\n\nDo not miss this event at Golemio offices in Rosmarin Businnes Center (9th floor) on August 28th - door opening 18:00. Hurry up, the capacity is limited so RSVP now or regret later!",
+          "group": {
+            "__ref": "Group:29269468"
+          },
+          "creatorMember": {
+            "__ref": "Member:259706018"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "223364576"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "259706018"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "230150957"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "282384522"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:27855750"
+          },
+          "dateTime": "2024-08-28T18:00:00+02:00",
+          "createdTime": "2024-07-25T04:39:59-04:00",
+          "endTime": "2024-08-28T21:00:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 38
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "PAST",
+          "series": null,
+          "featuredEventPhoto": {
+            "__ref": "PhotoInfo:522527477"
+          },
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:2004447212"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:2004447213"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:2004447214"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:2004447216"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:2004448589"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null,
+          "socialLabels": []
+        },
+        "Venue:27161870": {
+          "__typename": "Venue",
+          "id": "27161870",
+          "name": "Keboola Prague Office",
+          "address": "Dělnická 191/27",
+          "city": "Praha 7-Holešovice",
+          "state": "",
+          "country": "cz"
+        },
+        "PhotoInfo:521513153": {
+          "__typename": "PhotoInfo",
+          "id": "521513153",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/c/f/a/1/highres_521513153.jpeg"
+        },
+        "Rsvp:1999167595": {
+          "__typename": "Rsvp",
+          "id": "1999167595",
+          "member": {
+            "__ref": "Member:223364576"
+          }
+        },
+        "PhotoInfo:272805695": {
+          "__typename": "PhotoInfo",
+          "id": "272805695",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/b/2/7/f/highres_272805695.jpeg"
+        },
+        "Member:242828047": {
+          "__typename": "Member",
+          "id": "242828047",
+          "name": "Petr Moravek",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:272805695"
+          }
+        },
+        "Rsvp:1999169005": {
+          "__typename": "Rsvp",
+          "id": "1999169005",
+          "member": {
+            "__ref": "Member:242828047"
+          }
+        },
+        "PhotoInfo:290188650": {
+          "__typename": "PhotoInfo",
+          "id": "290188650",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/6/f/e/a/highres_290188650.jpeg"
+        },
+        "Member:245661352": {
+          "__typename": "Member",
+          "id": "245661352",
+          "name": "Philipp",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:290188650"
+          }
+        },
+        "Rsvp:1999169015": {
+          "__typename": "Rsvp",
+          "id": "1999169015",
+          "member": {
+            "__ref": "Member:245661352"
+          }
+        },
+        "PhotoInfo:319495351": {
+          "__typename": "PhotoInfo",
+          "id": "319495351",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/d/8/3/7/highres_319495351.jpeg"
+        },
+        "Member:410581572": {
+          "__typename": "Member",
+          "id": "410581572",
+          "name": "František Vaněk",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:319495351"
+          }
+        },
+        "Rsvp:1999169259": {
+          "__typename": "Rsvp",
+          "id": "1999169259",
+          "member": {
+            "__ref": "Member:410581572"
+          }
+        },
+        "PhotoInfo:319274003": {
+          "__typename": "PhotoInfo",
+          "id": "319274003",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/6/b/3/highres_319274003.jpeg"
+        },
+        "Member:418422006": {
+          "__typename": "Member",
+          "id": "418422006",
+          "name": "Ali Negary",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:319274003"
+          }
+        },
+        "Rsvp:1999169497": {
+          "__typename": "Rsvp",
+          "id": "1999169497",
+          "member": {
+            "__ref": "Member:418422006"
+          }
+        },
+        "Event:301435048": {
+          "__typename": "Event",
+          "id": "301435048",
+          "title": "PyData Prague #21 - Duck Hyping",
+          "eventUrl": "https://www.meetup.com/pydata-prague/events/301435048/",
+          "description": "Hello Prague dwellers and Duck typists!\n\nThe 21st Prague PyData meetup will take place at **Keboola**. As usual, the talks will start at 18:30 but we encourage you to come as soon as **18:00** to enjoy the opportunity to socialise and refresh yourselves (which you can continue doing during the break and after the talks).\n\nOur main goal is to build the community around Python and data and make it welcoming to people of various skills and experience levels.\n\n⚡ If you are interested in giving a lightning talk (up to 5 minutes to present an idea, tool or results related at least to some degree to Python and/or data), please contact us before or during the event.\n\n**📢How Data Improves Your Life in Prague**\n**(František Kaláb, OICT/Golemio)**\n\nAt Prague Data Platform, we collect, process, and evaluate data from the city to enhance decision-making and improve the lives of its citizens. From waste management to public transport, this talk will provide an overview of the city's data landscape and showcase specific areas where data is leveraged to the city's advantage. I will also discuss how we utilize open-source technologies and adhere to open standards to make our work transparent and accessible to clients and citizens.\n\n**📢DuckDB Intro with Case Study from Keboola**\n**(David Ešner, Keboola)**\n\nDuckDB is a powerful tool for data analysts and data engineers. It is an embedded, in-process database that provides connectors and capabilities comparable to complex query engines like Spark or Presto, yet it's as simple to set up as SQLite. In this talk, I will provide a brief introduction to the technology and how we leverage it as a simple magic wand for easy, in-process data crunching within the Keboola container architecture. I will walk you through our rather unusual use cases",
+          "group": {
+            "__ref": "Group:29269468"
+          },
+          "creatorMember": {
+            "__ref": "Member:223364576"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "223364576"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:27161870"
+          },
+          "dateTime": "2024-06-17T18:00:00+02:00",
+          "createdTime": "2024-06-04T00:27:37-04:00",
+          "endTime": "2024-06-17T21:30:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 56
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "PAST",
+          "series": null,
+          "featuredEventPhoto": {
+            "__ref": "PhotoInfo:521513153"
+          },
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1999167595"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1999169005"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1999169015"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1999169259"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1999169497"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null,
+          "socialLabels": []
+        },
+        "Venue:27802524": {
+          "__typename": "Venue",
+          "id": "27802524",
+          "name": "Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering",
+          "address": "Břehová 78/7, Staré Město",
+          "city": "Praha-Praha 1",
+          "state": "",
+          "country": "cz"
+        },
+        "PhotoInfo:520892395": {
+          "__typename": "PhotoInfo",
+          "id": "520892395",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/7/e/8/b/highres_520892395.jpeg"
+        },
+        "Rsvp:1995696479": {
+          "__typename": "Rsvp",
+          "id": "1995696479",
+          "member": {
+            "__ref": "Member:230150957"
+          }
+        },
+        "Rsvp:1995696480": {
+          "__typename": "Rsvp",
+          "id": "1995696480",
+          "member": {
+            "__ref": "Member:223364576"
+          }
+        },
+        "Member:239074103": {
+          "__typename": "Member",
+          "id": "239074103",
+          "name": "Jiri Bajer",
+          "memberPhoto": null
+        },
+        "Rsvp:1995696481": {
+          "__typename": "Rsvp",
+          "id": "1995696481",
+          "member": {
+            "__ref": "Member:239074103"
+          }
+        },
+        "PhotoInfo:263464667": {
+          "__typename": "PhotoInfo",
+          "id": "263464667",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/1/2/3/b/highres_263464667.jpeg"
+        },
+        "Member:156078452": {
+          "__typename": "Member",
+          "id": "156078452",
+          "name": "Ondřej Kokeš",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:263464667"
+          },
+          "email": ""
+        },
+        "Rsvp:1995696482": {
+          "__typename": "Rsvp",
+          "id": "1995696482",
+          "member": {
+            "__ref": "Member:156078452"
+          }
+        },
+        "Rsvp:1995696483": {
+          "__typename": "Rsvp",
+          "id": "1995696483",
+          "member": {
+            "__ref": "Member:282384522"
+          }
+        },
+        "Event:300721007": {
+          "__typename": "Event",
+          "id": "300721007",
+          "title": "Open Source Science @ PyData Prague #20",
+          "eventUrl": "https://www.meetup.com/pydata-prague/events/300721007/",
+          "description": "Join us at the forefront of innovation at the Open-Source Science @ PyData Prague Meetup, where open source meets science.\n\n**Highlights**:\n\n* Engaging talks on open source, AI, and scientific research from various domains.\n* Interactive panel discussions.\n* Networking opportunities with a community of academics, developers, and industry professionals.\n\n**Agenda**:\n\n* [Tim Bonnemann](https://www.linkedin.com/in/tbonnemann/): Accelerating Science with Open Source – An Introduction to Open-Source Science (OSSci)\n* [Evelina Gabašová](https://www.linkedin.com/in/egabasova/): Open source and academia: Research software engineering perspective\n* [Derek Homeier](https://github.com/dhomeier): Astropy – a community effort to develop a common core package for Astronomy in Python\n* [Martin Fleischmann](https://www.linkedin.com/in/fleischmannmartin/): Open by Default: Developing reproducible, computational research\n\nDetail abstracts are available at [https://pydata.cz/](https://pydata.cz/#abstracts).\n\n[Open-Source Science (OSSci)](https://opensource.science) is a NumFOCUS initiative – launched in July 2022 in partnership with IBM – aimed at accelerating scientific research by improving the ways open-source scientific software gets done (built, used, funded, sustained, recognized, etc.). OSSci connects scientists, OSS developers, and other stakeholders to share best practices, identify common pain points, and explore solutions together.\n\nThe five OSSci interest groups to date cover domain-specific topics (chemistry and material science, life sciences and healthcare, climate and sustainability) as well as cross-domain topics (reproducibility, [map of science](https://map.opensource.science)), with more to be added in the future.\n\nWe invite participants from all backgrounds and experience levels to foster the open source science community and to share their insights and innovations. Whether you're an academic researcher, an open-source enthusiast, or somewhere in between, we welcome your presence at this event.",
+          "group": {
+            "__ref": "Group:29269468"
+          },
+          "creatorMember": {
+            "__ref": "Member:230150957"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "230150957"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "223364576"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "239074103"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "156078452"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "282384522"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:27802524"
+          },
+          "dateTime": "2024-05-16T17:00:00+02:00",
+          "createdTime": "2024-04-29T13:40:00-04:00",
+          "endTime": "2024-05-16T20:00:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 77
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "PAST",
+          "series": null,
+          "featuredEventPhoto": {
+            "__ref": "PhotoInfo:520892395"
+          },
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1995696479"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1995696480"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1995696481"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1995696482"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1995696483"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null,
+          "socialLabels": []
+        },
+        "Venue:27794016": {
+          "__typename": "Venue",
+          "id": "27794016",
+          "name": "ČSOB Headquarters",
+          "address": "Radlická 333/150",
+          "city": "Praha-Praha 5",
+          "state": "",
+          "country": "cz"
+        },
+        "PhotoInfo:520464764": {
+          "__typename": "PhotoInfo",
+          "id": "520464764",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/6/0/b/c/highres_520464764.jpeg"
+        },
+        "Rsvp:1994067233": {
+          "__typename": "Rsvp",
+          "id": "1994067233",
+          "member": {
+            "__ref": "Member:230150957"
+          }
+        },
+        "Rsvp:1994067235": {
+          "__typename": "Rsvp",
+          "id": "1994067235",
+          "member": {
+            "__ref": "Member:223364576"
+          }
+        },
+        "Rsvp:1994067237": {
+          "__typename": "Rsvp",
+          "id": "1994067237",
+          "member": {
+            "__ref": "Member:239074103"
+          }
+        },
+        "Rsvp:1994067238": {
+          "__typename": "Rsvp",
+          "id": "1994067238",
+          "member": {
+            "__ref": "Member:156078452"
+          }
+        },
+        "Rsvp:1994067239": {
+          "__typename": "Rsvp",
+          "id": "1994067239",
+          "member": {
+            "__ref": "Member:282384522"
+          }
+        },
+        "Event:300451488": {
+          "__typename": "Event",
+          "id": "300451488",
+          "title": "PyData Prague #19 - Pandas in Heaven",
+          "eventUrl": "https://www.meetup.com/pydata-prague/events/300451488/",
+          "description": "Hello data embracers!\n\nThe 19th Prague PyData meetup will take place at **ČSOB**. As usual, the talks will start at 18:30 but we encourage you to come as soon as **18:00** to enjoy the opportunity to socialise and refresh yourselves (which you can continue doing during the break and after the talks).\n\nOur main goal is to build the community around Python and data and make it welcoming to people of various skills and experience levels.\n\n⚡ If you are interested in giving a lightning talk (up to 5 minutes to present an idea, tool or results related at least to some degree to Python and/or data), please contact us before the event or at its beginning.\n\n**📢 Big Bank Data in Migration: From In-House CSV to Parquet in Amazon S3**\n**(Jakub Kramata, ČSOB)**\n\nWhat is it like to migrate data from on-prem systems to the cloud in one of the largest banks in the Czech Republic? How to check that nothing has changed along the way? Join us to discover our Python-based solution! Not only will we go through the code, but we'll also focus on the pitfalls, challenges, and hardships we have encountered along the way. We will thoroughly explain how we verify the migrated data, which is exported as CSV from the source system and stored as Parquet in the AWS Data Lake. Expect a candid and emotional presentation with thoughtfully named commits.\n\n**📢 Pandas Roadmap and Beyond**\n**(Hadi Abdi Khojasteh - Pandas Community / Deltatre)**\n\nDiscover the essence of Pandas Enhancement Proposals aka PDEPs and their impact on the landscape of data analysis with Pandas. Join us for an overview of proposed changes, aimed at addressing corner cases and inconsistencies that have emerged over years of development, presented by one of Pandas' core contributors. From banning (up)casting in \"setitem-like\" operations to reevaluating inplace option in methods, delve into the behavioural shifts shaping the Pandas roadmap. Gain insight into the evolving copy and view semantics of operations, offering a glimpse into the anticipated Pandas 3.0 experience by overviewing changes in the new version.",
+          "group": {
+            "__ref": "Group:29269468"
+          },
+          "creatorMember": {
+            "__ref": "Member:230150957"
+          },
+          "eventHosts": [
+            {
+              "__typename": "EventHost",
+              "memberId": "223364576"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "239074103"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "156078452"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "230150957"
+            },
+            {
+              "__typename": "EventHost",
+              "memberId": "282384522"
+            }
+          ],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:27794016"
+          },
+          "dateTime": "2024-04-23T18:00:00+02:00",
+          "createdTime": "2024-04-16T12:03:18-04:00",
+          "endTime": "2024-04-23T21:00:00+02:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 77
+          },
+          "isAttending": false,
+          "isOnline": false,
+          "eventType": "PHYSICAL",
+          "status": "PAST",
+          "series": null,
+          "featuredEventPhoto": {
+            "__ref": "PhotoInfo:520464764"
+          },
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": [
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1994067233"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1994067235"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1994067237"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1994067238"
+                }
+              },
+              {
+                "__typename": "RsvpEdge",
+                "node": {
+                  "__ref": "Rsvp:1994067239"
+                }
+              }
+            ]
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": false,
+          "networkEvent": null,
+          "socialLabels": []
+        },
+        "Topic:8192": {
+          "__typename": "Topic",
+          "id": "8192",
+          "name": "Open Source",
+          "urlkey": "open-source"
+        },
+        "Topic:120095": {
+          "__typename": "Topic",
+          "id": "120095",
+          "name": "Software Development",
+          "urlkey": "software-development"
+        },
+        "Topic:9696": {
+          "__typename": "Topic",
+          "id": "9696",
+          "name": "New Technology",
+          "urlkey": "new-technology"
+        },
+        "Topic:10538": {
+          "__typename": "Topic",
+          "id": "10538",
+          "name": "Business Intelligence",
+          "urlkey": "business-intelligence"
+        },
+        "Topic:18865": {
+          "__typename": "Topic",
+          "id": "18865",
+          "name": "Technology",
+          "urlkey": "technology"
+        },
+        "Topic:1056672": {
+          "__typename": "Topic",
+          "id": "1056672",
+          "name": "Big Data",
+          "urlkey": "big-data"
+        },
+        "Topic:25899": {
+          "__typename": "Topic",
+          "id": "25899",
+          "name": "Community Building",
+          "urlkey": "community-building"
+        },
+        "Topic:584902": {
+          "__typename": "Topic",
+          "id": "584902",
+          "name": "Machine Learning",
+          "urlkey": "machine-learning"
+        },
+        "Topic:1515085": {
+          "__typename": "Topic",
+          "id": "1515085",
+          "name": "Data Analytics",
+          "urlkey": "data-analytics"
+        },
+        "Topic:37381": {
+          "__typename": "Topic",
+          "id": "37381",
+          "name": "Data Visualization",
+          "urlkey": "data-visualization"
+        },
+        "Topic:1139042": {
+          "__typename": "Topic",
+          "id": "1139042",
+          "name": "Predictive Analytics",
+          "urlkey": "predictive-analytics"
+        },
+        "Topic:32528": {
+          "__typename": "Topic",
+          "id": "32528",
+          "name": "Computer Programming",
+          "urlkey": "computer-programming"
+        },
+        "TopicCategory:546": {
+          "__typename": "TopicCategory",
+          "id": "546",
+          "name": "Technology",
+          "urlkey": "technology"
+        },
+        "PhotoInfo:262560498": {
+          "__typename": "PhotoInfo",
+          "id": "262560498",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/1/f/2/highres_262560498.jpeg"
+        },
+        "Member:208698723": {
+          "__typename": "Member",
+          "id": "208698723",
+          "name": "Daniel Srb",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:262560498"
+          }
+        },
+        "PhotoInfo:122812222": {
+          "__typename": "PhotoInfo",
+          "id": "122812222",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/c/b/f/e/highres_122812222.jpeg"
+        },
+        "Member:12331991": {
+          "__typename": "Member",
+          "id": "12331991",
+          "name": "Honza Král",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:122812222"
+          }
+        },
+        "PhotoInfo:301455196": {
+          "__typename": "PhotoInfo",
+          "id": "301455196",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/b/5/c/highres_301455196.jpeg"
+        },
+        "Member:234013557": {
+          "__typename": "Member",
+          "id": "234013557",
+          "name": "Tiago Oliveira",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:301455196"
+          }
+        },
+        "PhotoInfo:231229442": {
+          "__typename": "PhotoInfo",
+          "id": "231229442",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/c/1/2/2/highres_231229442.jpeg"
+        },
+        "Member:174822432": {
+          "__typename": "Member",
+          "id": "174822432",
+          "name": "Vít Tuček",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:231229442"
+          }
+        },
+        "PhotoInfo:278981087": {
+          "__typename": "PhotoInfo",
+          "id": "278981087",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/a/0/7/f/highres_278981087.jpeg"
+        },
+        "Member:259142772": {
+          "__typename": "Member",
+          "id": "259142772",
+          "name": "Jiri Hubacek",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:278981087"
+          }
+        },
+        "PhotoInfo:255306505": {
+          "__typename": "PhotoInfo",
+          "id": "255306505",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/1/9/6/9/highres_255306505.jpeg"
+        },
+        "Member:202612681": {
+          "__typename": "Member",
+          "id": "202612681",
+          "name": "Roman Liebich",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:255306505"
+          }
+        },
+        "PhotoInfo:170669512": {
+          "__typename": "PhotoInfo",
+          "id": "170669512",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/7/3/4/8/highres_170669512.jpeg"
+        },
+        "Member:128500682": {
+          "__typename": "Member",
+          "id": "128500682",
+          "name": "Petr Messner",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:170669512"
+          }
+        },
+        "PhotoInfo:255055906": {
+          "__typename": "PhotoInfo",
+          "id": "255055906",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/d/a/6/2/highres_255055906.jpeg"
+        },
+        "Member:201863256": {
+          "__typename": "Member",
+          "id": "201863256",
+          "name": "Petr Vankat",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:255055906"
+          }
+        },
+        "PhotoInfo:278981196": {
+          "__typename": "PhotoInfo",
+          "id": "278981196",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/a/0/e/c/highres_278981196.jpeg"
+        },
+        "Member:259143020": {
+          "__typename": "Member",
+          "id": "259143020",
+          "name": "David Brenner",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:278981196"
+          }
+        },
+        "PhotoInfo:261131238": {
+          "__typename": "PhotoInfo",
+          "id": "261131238",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/2/b/e/6/highres_261131238.jpeg"
+        },
+        "Member:42680152": {
+          "__typename": "Member",
+          "id": "42680152",
+          "name": "Jan Zikes",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:261131238"
+          }
+        },
+        "PhotoInfo:273494238": {
+          "__typename": "PhotoInfo",
+          "id": "273494238",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/7/9/e/highres_273494238.jpeg"
+        },
+        "Member:245190602": {
+          "__typename": "Member",
+          "id": "245190602",
+          "name": "Matúš Chládek",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:273494238"
+          }
+        },
+        "PhotoInfo:278217753": {
+          "__typename": "PhotoInfo",
+          "id": "278217753",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/e/1/9/9/highres_278217753.jpeg"
+        },
+        "Member:257109820": {
+          "__typename": "Member",
+          "id": "257109820",
+          "name": "Martin Surovčák",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:278217753"
+          }
+        },
+        "PhotoInfo:245951508": {
+          "__typename": "PhotoInfo",
+          "id": "245951508",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/2/c/f/4/highres_245951508.jpeg"
+        },
+        "Member:187012679": {
+          "__typename": "Member",
+          "id": "187012679",
+          "name": "Vitek V.",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:245951508"
+          }
+        },
+        "PhotoInfo:12459528": {
+          "__typename": "PhotoInfo",
+          "id": "12459528",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/9/a/6/8/highres_12459528.jpeg"
+        },
+        "Member:12250849": {
+          "__typename": "Member",
+          "id": "12250849",
+          "name": "Ivan Kutil",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:12459528"
+          }
+        },
+        "PhotoInfo:256072678": {
+          "__typename": "PhotoInfo",
+          "id": "256072678",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/c/d/c/6/highres_256072678.jpeg"
+        },
+        "Member:6689157": {
+          "__typename": "Member",
+          "id": "6689157",
+          "name": "Radovan Kavicky",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:256072678"
+          }
+        },
+        "PhotoInfo:518310352": {
+          "__typename": "PhotoInfo",
+          "id": "518310352",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/7/6/9/0/highres_518310352.jpeg"
+        },
+        "PhotoInfo:251674082": {
+          "__typename": "PhotoInfo",
+          "id": "251674082",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/8/5/2/2/highres_251674082.jpeg"
+        },
+        "ProNetwork:250564666426155008": {
+          "__typename": "ProNetwork",
+          "id": "250564666426155008",
+          "urlname": "pydata",
+          "name": "PyData",
+          "logo": {
+            "__ref": "PhotoInfo:251674082"
+          },
+          "groups": {
+            "__typename": "ProNetworkGroupsConnection",
+            "totalCount": 236
+          }
+        },
+        "Member:135325322": {
+          "__typename": "Member",
+          "id": "135325322"
+        },
+        "Venue:26906060": {
+          "__typename": "Venue",
+          "id": "26906060",
+          "name": "Online event",
+          "address": "",
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "PhotoInfo:523848531": {
+          "__typename": "PhotoInfo",
+          "id": "523848531",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/b/d/9/3/highres_523848531.jpeg"
+        },
+        "Event:303797771": {
+          "__typename": "Event",
+          "id": "303797771",
+          "title": "PyData Global 2024",
+          "eventUrl": "https://www.meetup.com/pydata-prague/events/303797771/",
+          "description": "**PyData Global 2024 is a 3-day virtual event for the international community of data scientists, data engineers, and developers of data analysis tools to share ideas and learn from each other.**\n\n**During the conference, attendees will have the opportunity to attend live keynote sessions and talks, lightning talks, and get to know fellow members of the PyData Community.**\n\n**The event will be virtually hosted.**\n\n**CFP Deadline: October 14th**\n\n**Tickets coming soon!**\n\n[https://pydata.org/global2024/](https://pydata.org/global2024/)",
+          "group": {
+            "__ref": "Group:29269468"
+          },
+          "creatorMember": {
+            "__ref": "Member:135325322"
+          },
+          "eventHosts": [],
+          "feeSettings": null,
+          "venue": {
+            "__ref": "Venue:26906060"
+          },
+          "dateTime": "2024-12-03T12:00:00+01:00",
+          "createdTime": "2024-10-02T21:02:43-04:00",
+          "endTime": "2024-12-05T23:30:00+01:00",
+          "going": {
+            "__typename": "GoingRsvpConnection",
+            "totalCount": 0
+          },
+          "isAttending": false,
+          "isOnline": true,
+          "eventType": "ONLINE",
+          "status": "ACTIVE",
+          "series": null,
+          "featuredEventPhoto": {
+            "__ref": "PhotoInfo:523848531"
+          },
+          "rsvps({\"first\":5})": {
+            "__typename": "RsvpConnection",
+            "edges": []
+          },
+          "actions": [],
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpsClosed": false
+          },
+          "isNetworkEvent": true,
+          "networkEvent": {
+            "__typename": "NetworkEvent",
+            "rsvpCount": 7,
+            "groupCount": 139
+          },
+          "socialLabels": []
+        }
+      },
+      "_sentryTraceData": "169e24f27dd44349b34ee7f1691311fe-dbe3e3f4dedc6b81-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=b9cbdd929fe2131d9770ed2950ec6942ae47416c,sentry-public_key=5d12cd2317664353456ab4c40d079af2,sentry-trace_id=169e24f27dd44349b34ee7f1691311fe,sentry-sampled=false"
+    },
+    "__N_SSP": true
+  },
+  "page": "/[slug]/about",
+  "query": {
+    "slug": "pydata-prague"
+  },
+  "buildId": "b9cbdd929fe2131d9770ed2950ec6942ae47416c",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "locale": "en-US",
+  "locales": [
+    "en-US",
+    "en-AU",
+    "de",
+    "de-DE",
+    "es",
+    "es-ES",
+    "fr",
+    "fr-FR",
+    "it",
+    "it-IT",
+    "ja",
+    "ja-JP",
+    "ko",
+    "ko-KR",
+    "nl",
+    "nl-NL",
+    "pl",
+    "pl-PL",
+    "pt",
+    "pt-BR",
+    "ru",
+    "ru-RU",
+    "tr",
+    "tr-TR",
+    "th-TH"
+  ],
+  "defaultLocale": "en-US",
+  "scriptLoader": []
+}

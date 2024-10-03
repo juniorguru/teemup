@@ -42,7 +42,7 @@ Then cut a new release:
 -   Raise the version number in `pyproject.toml`
 -   Commit the changes: `git commit -am "release vX.Y.Z"`
 -   Create a version tag: `git tag vX.Y.Z`
--   Push the tag: `git push --tags`
+-   Push the tag: `git push --follow-tags`
 
 **Note:** If there are no upcoming events, choose a different group page for testing.
 Do not remove live testing from the repository!

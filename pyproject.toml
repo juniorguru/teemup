@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.11.*"
+python = ">=3.11 <4.0"
 lxml = "5.3.0"
 cssselect = "1.2.0"
 

@@ -3,20 +3,17 @@ updates:
   - package-ecosystem: pip
     directory: "/"
     schedule:
-      interval: daily
+      interval: weekly
     open-pull-requests-limit: 1
     groups:
-      patch-upgrades:
-        update-types: ["patch"]
-      dev-upgrades:
-        dependency-type: "development"
-        update-types: ["minor"]
+      python:
+        patterns: ["*"]
     labels:
       - dependencies
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: daily
+      interval: weekly
     open-pull-requests-limit: 1
     labels:
       - dependencies

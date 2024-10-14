@@ -36,8 +36,10 @@ def test_parse_produces_expected_keys(response_content: str):
 
 def test_parse_produces_expected_venue_keys(response_content: str):
     events = parse(response_content)
+    venue = events[0]["venue"]
 
-    assert sorted(events[0]["venue"].keys()) == [
+    assert venue is not None
+    assert sorted(venue.keys()) == [
         "address",
         "city",
         "country",

@@ -1,4 +1,6 @@
+from datetime import datetime
 import json
+from zoneinfo import ZoneInfo
 import pytest
 from teemup import parse_next_state, parse_venue, parse
 
@@ -7,6 +9,28 @@ from teemup import parse_next_state, parse_venue, parse
 def response_content() -> str:
     with open("test_fixtures/response_content.html") as f:
         return f.read()
+
+
+def test_parse(response_content: str):
+    event = parse(response_content)[0]
+
+    assert event["description"].startswith("Hello Python lovers and data wizards!")
+    assert event["ends_at"] == datetime(
+        2024, 11, 7, 21, tzinfo=ZoneInfo("Europe/Prague")
+    )
+    assert event["group_name"] == "PyData Prague"
+    assert event["starts_at"] == datetime(
+        2024, 11, 7, 18, tzinfo=ZoneInfo("Europe/Prague")
+    )
+    assert event["title"] == "PyData Prague #23 - Low agent intelligence threat"
+    assert event["url"] == "https://www.meetup.com/pydata-prague/events/304008256/"
+    assert event["venue"] == {
+        "name": "Rapid 7 (Scott.Weber Workspace - Praga Studios)",
+        "address": "Pernerova 702/39",
+        "city": "Hlavní město Praha",
+        "state": None,
+        "country": "cz",
+    }
 
 
 def test_parse_produces_timezone_aware_starts_at(response_content: str):
@@ -27,6 +51,7 @@ def test_parse_produces_expected_keys(response_content: str):
     assert sorted(events[0].keys()) == [
         "description",
         "ends_at",
+        "group_name",
         "starts_at",
         "title",
         "url",
@@ -57,6 +82,7 @@ def test_parse_next_state_can_deal_with_missing_venue():
     assert sorted(event_with_missing_venue.keys()) == [
         "description",
         "ends_at",
+        "group_name",
         "starts_at",
         "title",
         "url",
@@ -73,6 +99,7 @@ def test_parse_next_state_can_deal_with_online_venue():
     assert sorted(event_with_online_venue.keys()) == [
         "description",
         "ends_at",
+        "group_name",
         "starts_at",
         "title",
         "url",

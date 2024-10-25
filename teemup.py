@@ -20,6 +20,7 @@ class Event(TypedDict):
     starts_at: datetime
     ends_at: datetime
     venue: Venue | None
+    group_name: str | None
 
 
 def parse(response_content: str) -> list[Event]:
@@ -29,24 +30,33 @@ def parse(response_content: str) -> list[Event]:
 
 
 def parse_next_state(next_state: dict) -> list[Event]:
-    apollo_state = next_state["props"]["pageProps"]["__APOLLO_STATE__"]
-    venues = {
-        key: venue for key, venue in apollo_state.items() if key.startswith("Venue:")
-    }
+    page_props = next_state["props"]["pageProps"]
+    apollo_state = page_props["__APOLLO_STATE__"]
+    groups = select_typename(apollo_state, "Group")
+    venues = select_typename(apollo_state, "Venue")
     return [
         Event(
             title=event["title"],
+            url=event["eventUrl"],
             description=event["description"],
             starts_at=datetime.fromisoformat(event["dateTime"]),
             ends_at=datetime.fromisoformat(event["endTime"]),
             venue=(
                 parse_venue(venues[event["venue"]["__ref"]]) if event["venue"] else None
             ),
-            url=event["eventUrl"],
+            group_name=groups[event["group"]["__ref"]]["name"],
         )
-        for key, event in apollo_state.items()
-        if (key.startswith("Event:") and event["status"] == "ACTIVE")
+        for event in select_typename(apollo_state, "Event").values()
+        if event["status"] == "ACTIVE"
     ]
+
+
+def select_typename(apollo_state: dict, typename: str) -> dict[str, dict]:
+    return {
+        key: value
+        for key, value in apollo_state.items()
+        if value["__typename"] == typename
+    }
 
 
 def parse_venue(venue: dict) -> Venue | None:

@@ -17,7 +17,7 @@ This library takes HTML source of a meetup group page on Meetup and returns a li
 >>> events = parse(html)
 >>> event = next(event for event in events if event['venue'] is not None)
 >>> sorted(event.keys())
-['description', 'ends_at', 'starts_at', 'title', 'url', 'venue']
+['description', 'ends_at', 'group_name', 'starts_at', 'title', 'url', 'venue']
 >>> sorted(event['venue'])
 ['address', 'city', 'country', 'name', 'state']
 
